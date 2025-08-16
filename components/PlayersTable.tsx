@@ -29,7 +29,7 @@ export default function PlayersTable({
   onRowsPerPageChange,
 }: PlayersTableProps) {
   return (
-    <div className="rounded-lg overflow-hidden flex-4 text-sm">
+    <div className="rounded-lg overflow-hidden flex-1 sm:flex-4 text-sm">
       <table className="w-full">
         <thead>
           <tr className="bg-dark-gray">

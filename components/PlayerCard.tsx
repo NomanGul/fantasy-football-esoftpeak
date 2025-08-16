@@ -8,7 +8,7 @@ interface PlayerCardProps {
 
 export default function PlayerCard({ player }: PlayerCardProps) {
   return (
-    <div className="bg-dark-gray rounded-lg text-center flex-1 flex flex-col items-center max-h-96 lg:max-h-[495px]">
+    <div className="bg-dark-gray rounded-lg text-center sm:flex-1 flex flex-col items-center max-h-96 lg:max-h-[495px]">
       <div className="flex-1 flex flex-col justify-end">
         <Image
           src={tom_brady}
